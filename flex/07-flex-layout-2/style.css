@@ -8,12 +8,20 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  margin-top: auto;
+  text-align: center;
+  align-content: center;
+  min-height: 72px;
 }
 
 .sidebar {
@@ -26,4 +34,37 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.content-container {
+  display: flex;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  padding:16px;
+}
+
+.card-container {
+display:flex;
+justify-content:center;
+gap: 20px;
+padding: 48px;
+flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
 }
