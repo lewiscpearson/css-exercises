@@ -3,3 +3,18 @@ button:hover {
     width:100px;
     height: 100px;
 }
+
+  /* This rule will apply to all links */
+  a {
+    text-decoration: underline;
+  }
+
+  /* This will apply to unvisited links */
+  a:link {
+    color: blue;
+  }
+
+  /* And you guessed it, this applies to all links the user has clicked on */
+  a:visited {
+    color: purple;
+  }
