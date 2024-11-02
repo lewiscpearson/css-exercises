@@ -18,3 +18,16 @@ button:hover {
   a:visited {
     color: purple;
   }
+
+
+/* adjacent sibling selection, only the first b
+immediately after an element is selected */
+A+B {
+
+}
+
+/* selects all elements that follow any A 
+regardless of their adjacency.*/ 
+A~B {
+
+}
